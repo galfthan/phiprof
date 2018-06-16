@@ -20,7 +20,7 @@ CLOCK_ID = CLOCK_MONOTONIC
 CCFLAGS = -fpic -O3 -fopenmp -std=c++11 -DCLOCK_ID=$(CLOCK_ID) #-DDEBUG_PHIPROF_TIMERS # -W -Wall -Wextra -pedantic 
 FFLAGS= -fpic -O3
 # compiler
-CCC = mpicxx
+CCC = mpic++
 FTN = mpifort
 
 # compile flags
